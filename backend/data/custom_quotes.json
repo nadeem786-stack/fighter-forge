@@ -1,0 +1,206 @@
+[
+  {
+    "id": "custom_1794265889389",
+    "type": "cage",
+    "specs": {
+      "shape": "Octagon (8-Sided)",
+      "diameter": "24 ft Pro Diameter",
+      "customDiameter": "",
+      "elevation": "Championship",
+      "fenceHeight": "6 ft Competition Standard",
+      "doors": "2 Doors (Fighter & Medic)",
+      "stairs": true,
+      "canvasColor": "Custom PMS Color",
+      "customCanvasColor": "",
+      "logoLayout": "Multi-Sponsor Layout",
+      "centerLogoName": "Fighter Forge Boxing Ring Design Board.png",
+      "cornerPadColor": "Custom Gym Colors",
+      "customCornerPadColor": "",
+      "cornerPadPrint": "Print Gym/Brand Logo",
+      "topRailPadColor": "Matte Black",
+      "topRailPrint": "No Repeating Print",
+      "topRailText": "",
+      "meshColor": "Heavy PVC Black (Standard)",
+      "customMeshColor": "",
+      "frameCoating": "Gloss Black",
+      "customFrameCoating": "",
+      "platformSkirt": "Plain Heavy PVC Skirt",
+      "quantity": 1,
+      "additionalNotes": ""
+    },
+    "customer": {
+      "name": "nb",
+      "phone": "bnbn",
+      "city": "bnvb"
+    },
+    "uploadedUrls": [
+      "/uploads/1794265889386_Fighter Forge Boxing Ring Design Board.png"
+    ],
+    "savedAt": "2026-11-09T23:11:29.389Z"
+  },
+  {
+    "id": "custom_1794265952007",
+    "type": "cage",
+    "specs": {
+      "shape": "Octagon (8-Sided)",
+      "diameter": "30 ft Stadium Octagon",
+      "customDiameter": "",
+      "elevation": "Championship",
+      "fenceHeight": "6 ft Competition Standard",
+      "doors": "2 Doors (Fighter & Medic)",
+      "stairs": true,
+      "canvasColor": "Matte Black (Standard)",
+      "customCanvasColor": "",
+      "logoLayout": "Multi-Sponsor Layout",
+      "centerLogoName": "Screenshot 2026-09-06 220909.png",
+      "cornerPadColor": "Classic Red/Blue/Black (Standard)",
+      "customCornerPadColor": "",
+      "cornerPadPrint": "No Print",
+      "topRailPadColor": "Matte Black",
+      "topRailPrint": "No Repeating Print",
+      "topRailText": "",
+      "meshColor": "Heavy PVC Black (Standard)",
+      "customMeshColor": "",
+      "frameCoating": "Industrial Matte Black",
+      "customFrameCoating": "",
+      "platformSkirt": "Plain Heavy PVC Skirt",
+      "quantity": 1,
+      "additionalNotes": ""
+    },
+    "customer": {
+      "name": "bb",
+      "phone": "hhj",
+      "city": "bnbnb"
+    },
+    "uploadedUrls": [
+      "/uploads/1794265952006_Screenshot 2026-09-06 220909.png"
+    ],
+    "savedAt": "2026-11-09T23:12:32.007Z"
+  },
+  {
+    "id": "custom_1794266012744",
+    "type": "cage",
+    "specs": {
+      "shape": "Octagon (8-Sided)",
+      "diameter": "24 ft Pro Diameter",
+      "customDiameter": "",
+      "elevation": "Championship",
+      "fenceHeight": "6 ft Competition Standard",
+      "doors": "2 Doors (Fighter & Medic)",
+      "stairs": true,
+      "canvasColor": "Custom PMS Color",
+      "customCanvasColor": "",
+      "logoLayout": "Multi-Sponsor Layout",
+      "centerLogoName": "Fighter Forge Boxing Ring Design Board.png",
+      "cornerPadColor": "Custom Gym Colors",
+      "customCornerPadColor": "",
+      "cornerPadPrint": "Print Gym/Brand Logo",
+      "topRailPadColor": "Matte Black",
+      "topRailPrint": "No Repeating Print",
+      "topRailText": "",
+      "meshColor": "Heavy PVC Black (Standard)",
+      "customMeshColor": "",
+      "frameCoating": "Gloss Black",
+      "customFrameCoating": "",
+      "platformSkirt": "Plain Heavy PVC Skirt",
+      "quantity": 1,
+      "additionalNotes": ""
+    },
+    "customer": {
+      "name": "nb",
+      "phone": "bnbn",
+      "city": "bnvb"
+    },
+    "uploadedUrls": [
+      "/uploads/1794266012741_Fighter Forge Boxing Ring Design Board.png"
+    ],
+    "savedAt": "2026-11-09T23:13:32.744Z"
+  },
+  {
+    "id": "custom_1794399545884",
+    "type": "cage",
+    "specs": {
+      "diameter": "28 ft Professional Octagon",
+      "canvasColor": "Matte Black",
+      "meshColor": "Heavy PVC Black"
+    },
+    "customer": {
+      "name": "Arjun Pro Gym",
+      "phone": "+91 9988776655",
+      "city": "Bangalore",
+      "timeline": "Immediate"
+    },
+    "uploadedUrls": [
+      "/uploads/1794399545883_arjun_gym_center_logo.png"
+    ],
+    "uploadedFiles": [
+      {
+        "originalName": "arjun_gym_center_logo.png",
+        "storedFilename": "1794399545883_arjun_gym_center_logo.png",
+        "fileUrl": "/uploads/1794399545883_arjun_gym_center_logo.png",
+        "contentType": "image/png",
+        "sizeBytes": 68,
+        "dataBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+      }
+    ],
+    "createdAt": "2026-11-11T12:19:05.884Z",
+    "source": "Website Customizer Form",
+    "_id": "6af45d39d8c9faddd68dfc8b"
+  },
+  {
+    "id": "custom_1794780032679",
+    "customer": {
+      "name": "Arena Manager Test",
+      "email": "arena@fighterforge.in",
+      "phone": "+919876543210",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "projectTimeline": "Within 30 days",
+      "gymName": "Forge Combat Academy"
+    },
+    "quote": {
+      "productType": "boxing_ring",
+      "size": "20x20 ft",
+      "height": "3ft Pro Competition",
+      "matThickness": "50mm High-Density",
+      "customCanvasLogo": true,
+      "cornerPadColors": {
+        "red": 1,
+        "blue": 1,
+        "white": 2
+      },
+      "notes": "Verification test for custom ring enquiry storage in MongoDB Atlas"
+    },
+    "createdAt": "2026-11-15T22:00:32.679Z",
+    "source": "Website Customizer Form (JSON)",
+    "_id": "6afa2b801711edf9fddf1759"
+  },
+  {
+    "id": "custom_1794780232702",
+    "customer": {
+      "name": "Arena Manager Test",
+      "email": "arena@fighterforge.in",
+      "phone": "+919876543210",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "projectTimeline": "Within 30 days",
+      "gymName": "Forge Combat Academy"
+    },
+    "quote": {
+      "productType": "boxing_ring",
+      "size": "20x20 ft",
+      "height": "3ft Pro Competition",
+      "matThickness": "50mm High-Density",
+      "customCanvasLogo": true,
+      "cornerPadColors": {
+        "red": 1,
+        "blue": 1,
+        "white": 2
+      },
+      "notes": "Verification test for custom ring enquiry storage in MongoDB Atlas"
+    },
+    "createdAt": "2026-11-15T22:03:52.702Z",
+    "source": "Website Customizer Form (JSON)",
+    "_id": "6afa2c483f98b577555541ec"
+  }
+]

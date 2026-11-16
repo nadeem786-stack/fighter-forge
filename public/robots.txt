@@ -1,0 +1,41 @@
+# Fighter Forge — Robots.txt
+# Comprehensive Combat Sports Engineering & Knowledge Hub
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /backend/
+
+# Explicitly Allow Major AI & LLM Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Sitemap Location
+Sitemap: https://fighterforge.in/sitemap.xml

@@ -1,0 +1,17 @@
+# Fighter Forge (fighterforge.in)
+> Fighter Forge is India's premier manufacturer and engineering authority for official Boxing Rings, Championship MMA Cages, and combat sports equipment.
+
+## Core Platform Sections
+- [Home Page](https://fighterforge.in/): Overview of Fighter Forge arena engineering, 20+ years experience, and 120+ arena builds.
+- [Boxing Rings Catalog](https://fighterforge.in/boxing-rings): BFI and World Boxing standard rings, including Floor rings, Low-profile 1-2ft rings, and 3ft (100cm) Championship elevated rings.
+- [MMA Cages Catalog](https://fighterforge.in/mma-cages): Pro Championship octagons and hexagons, from 12ft modular cages to 30ft UFC-standard competition platforms.
+- [Arena Customizer & CAD Quotation](https://fighterforge.in/customize): Interactive 4-step 3D spec builder for boxing rings and MMA cages with custom canvas, corner pad logos, and powder coating.
+- [Event Arena Rentals](https://fighterforge.in/): Professional fight night and IPBL arena rental setup with complete rigging and turnkey event management.
+- [Combat Sports Stories & Knowledge Hub](https://fighterforge.in/stories): Technical articles, engineering blueprints, buyer's guides, and combat sports event analysis.
+
+## Published Technical Stories & Articles
+- [How to Build an MMA Cage](https://fighterforge.in/stories/how-to-build-mma-cage): Sizing, geometry (octagon vs hexagon), structural steel framing, vinyl-coated chain link, padding, and India cost breakdowns.
+- [How to Build a Boxing Ring](https://fighterforge.in/stories/how-to-build-boxing-ring): International BFI and World Boxing standards, 4-rope rigging, shock-absorbing sub-mat foam, corner posts, and price tiers in INR.
+- [Best Boxing Gloves for You](https://fighterforge.in/stories/best-boxing-gloves): Complete buyer's guide covering ounce weights (10oz-18oz) by body weight, cowhide leather vs synthetic, lace vs velcro, brand guide, and India prices.
+- [How to Remove Smell from Boxing Gloves](https://fighterforge.in/stories/how-to-remove-smell-from-boxing-gloves): Scientific causes of glove bacteria, 6 proven deodorizing methods (baking soda, cedar, HOCl), what NEVER to do, and a 5-minute post-training routine.
+- [UFC Events in January 2027: Dates, Venues and How to Watch from India](https://fighterforge.in/stories/ufc-events-january-2027-india): Official verified schedule (UFC Dallas, UFC 336 Toronto), India IST broadcast timings, viewing guide, and notice confirming no UFC event in India in January 2027.
