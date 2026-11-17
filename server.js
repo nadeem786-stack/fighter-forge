@@ -49,7 +49,7 @@ const { stories, getStoryBySlug } = require('./src/data/storiesData.js');
 const { renderStoriesListingHtml, renderStoryDetailHtml } = require('./backend/storyRenderer.js');
 
 // MongoDB Atlas Configuration
-const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://nadeemsiddique0303_db_user:Loveyourself786@fighterforge.gaa4eew.mongodb.net/?retryWrites=true&w=majority";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://nadeemsiddique0303_db_user:Loveyourself786654@fighterforge.gaa4eew.mongodb.net/?retryWrites=true&w=majority";
 const MONGO_DB_NAME = process.env.MONGO_DB_NAME || "fighterforge";
 
 let mongoClient = null;
