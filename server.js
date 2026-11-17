@@ -56,9 +56,13 @@ let mongoClient = null;
 let mongoDb = null;
 let isMongoConnected = false;
 
-// Ensure storage directories exist
-if (!fs.existsSync(UPLOADS_DIR)) fs.mkdirSync(UPLOADS_DIR, { recursive: true });
-if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+// Ensure storage directories exist (wrapped for Vercel read-only filesystem)
+try {
+  if (!fs.existsSync(UPLOADS_DIR)) fs.mkdirSync(UPLOADS_DIR, { recursive: true });
+  if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+} catch (e) {
+  console.warn('Storage dirs not writable (serverless env):', e.message);
+}
 
 // Safe uncaught exception handling
 process.on('uncaughtException', (err) => {
@@ -71,7 +75,7 @@ process.on('unhandledRejection', (reason) => {
 // Connect to MongoDB Atlas
 async function initMongoDB() {
   try {
-    const { MongoClient } = require('./node_modules/mongodb');
+    const { MongoClient } = require('mongodb');
     mongoClient = new MongoClient(MONGO_URI, {
       serverSelectionTimeoutMS: 5000,
       connectTimeoutMS: 10000,
