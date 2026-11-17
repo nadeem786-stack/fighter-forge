@@ -1,0 +1,16 @@
+# Scratch / build scripts — not needed on Vercel
+scratch/
+
+# Large video files — host these on Cloudflare/YouTube/Google Drive instead
+public/assets/hero-bg-video.mp4
+public/assets/user-demo-recording.mp4
+
+# Temp binary/raw scratch files from image processing
+*.bmp
+*.raw
+
+# Python backend uploads folder (empty on deploy)
+backend/uploads/
+
+# Local env file — set these in Vercel dashboard instead
+.env

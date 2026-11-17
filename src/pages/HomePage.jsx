@@ -60,7 +60,7 @@ export function HomePage({ navigateTo, onOpenGearCommunity, onOpenRentalModal })
             playsInline
             className="w-full h-full object-cover object-center opacity-90 brightness-105 contrast-105 scale-100"
           >
-            <source src="./assets/hero-bg-video.mp4" type="video/mp4" />
+            <source src="https://drive.google.com/uc?export=download&confirm=t&id=1b7offcADPQwtfzkosWWxcn8qxKuSdKKe" type="video/mp4" />
           </video>
           {/* Subtle Top & Bottom Blends to keep Header and Next Section seamless */}
           <div className="absolute top-0 inset-x-0 h-28 bg-gradient-to-b from-black/60 to-transparent pointer-events-none"></div>
