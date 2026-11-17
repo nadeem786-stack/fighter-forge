@@ -423,37 +423,37 @@ const siteConfig = {
   // CLIENT LOGOS (MOVING STRIP ON HOMEPAGE)
   // ==========================================
   clients: [{
-    name: "APEX COMBAT CLUB",
-    city: "Mumbai",
-    category: "Pro MMA Gym"
+    name: "WAKO INDIA",
+    subtitle: "Kickboxing Federation",
+    logo: "./assets/clients/client-wako-india.webp"
   }, {
-    name: "IRON FIST BOXING ACADEMY",
-    city: "Delhi NCR",
-    category: "Elite Boxing"
+    name: "AIBA WORLD BOXING",
+    subtitle: "Women's World Championships • Delhi 2018",
+    logo: "./assets/clients/client-aiba-world-boxing.webp"
   }, {
-    name: "TITAN FIGHT LEAGUE",
-    city: "Bangalore",
-    category: "Championship Promotion"
+    name: "TRAIN HIGH GYM",
+    subtitle: "Elite Boxing & MMA Academy",
+    logo: "./assets/clients/client-train-high-gym.webp"
   }, {
-    name: "REDLINE COMBAT SPORTS",
-    city: "Hyderabad",
-    category: "Combat Arena"
+    name: "SHIV-NARESH",
+    subtitle: "A Quality Sports Wear",
+    logo: "./assets/clients/client-shiv-naresh.webp"
   }, {
-    name: "STRIKE FORCE ARENA",
-    city: "Pune",
-    category: "Fight Training Center"
+    name: "CRPF",
+    subtitle: "Central Reserve Police Force",
+    logo: "./assets/clients/client-crpf.webp"
   }, {
-    name: "VALOR WARRIORS MMA",
-    city: "Chandigarh",
-    category: "Championship Cage"
+    name: "RAJASTHAN BOXING",
+    subtitle: "Rajasthan Boxing Association",
+    logo: "./assets/clients/client-rajasthan-boxing.webp"
   }, {
-    name: "BLACK BELT SANCTUARY",
-    city: "Goa",
-    category: "Combat Academy"
+    name: "SAI",
+    subtitle: "Sports Authority of India",
+    logo: "./assets/clients/client-sai-sports-authority-india.webp"
   }, {
-    name: "RUMBLE TITLE FIGHTS",
-    city: "Kolkata",
-    category: "Boxing Promotion"
+    name: "TRENZ",
+    subtitle: "Combat Sports Brand",
+    logo: "./assets/clients/client-trenz.webp"
   }],
   // ==========================================
   // WHY FIGHTER FORGE (6 FEATURE BLOCKS)
@@ -2306,38 +2306,39 @@ function ClientLogosMarquee() {
   return /*#__PURE__*/React.createElement("div", {
     className: "relative py-8 bg-[#0D0D0D] border-y border-zinc-800/80 overflow-hidden"
   }, /*#__PURE__*/React.createElement("div", {
-    className: "max-w-7xl mx-auto px-4 mb-4 flex items-center justify-between"
+    className: "max-w-7xl mx-auto px-4 mb-5 flex items-center justify-between"
   }, /*#__PURE__*/React.createElement("div", {
     className: "flex items-center gap-3"
   }, /*#__PURE__*/React.createElement("div", {
     className: "diagonal-slash-pair"
   }, /*#__PURE__*/React.createElement("span", null), /*#__PURE__*/React.createElement("span", null)), /*#__PURE__*/React.createElement("span", {
     className: "text-xs font-bold uppercase tracking-[0.25em] text-zinc-400"
-  }, "TRUSTED BY ELITE ARENAS, PRO FIGHT CAMPS & CHAMPIONSHIP PROMOTIONS")), /*#__PURE__*/React.createElement("div", {
+  }, "TRUSTED BY ELITE ARENAS, CHAMPIONSHIP PROMOTIONS & GOVT FEDERATIONS")), /*#__PURE__*/React.createElement("div", {
     className: "hidden md:flex items-center gap-2 text-xs text-[#E10B1F] font-bold tracking-widest"
-  }, /*#__PURE__*/React.createElement("span", null, "FACTORY DIRECT BUILDS"), /*#__PURE__*/React.createElement("span", null, "\u2022"), /*#__PURE__*/React.createElement("span", null, "NATIONWIDE DISPATCH"))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("span", null, "FACTORY DIRECT BUILDS"), /*#__PURE__*/React.createElement("span", {
+    className: "text-zinc-600"
+  }, "\u2022"), /*#__PURE__*/React.createElement("span", null, "NATIONWIDE DISPATCH"))), /*#__PURE__*/React.createElement("div", {
     className: "flex overflow-hidden select-none mask-gradient-x"
   }, /*#__PURE__*/React.createElement("div", {
-    className: "animate-marquee-left flex items-center gap-6 py-2"
+    className: "animate-marquee-left flex items-center gap-5 py-2"
   }, clientList.map((client, idx) => /*#__PURE__*/React.createElement("div", {
     key: `${client.name}-${idx}`,
-    className: "flex items-center gap-3 bg-[#161616] hover:bg-[#1f1f1f] border border-zinc-800 hover:border-[#E10B1F]/40 px-5 py-3 transition-all duration-200 cursor-default shrink-0 group",
+    className: "flex items-center gap-3 bg-[#161616] hover:bg-[#1f1f1f] border border-zinc-800 hover:border-[#E10B1F]/60 px-4 py-3 transition-all duration-200 cursor-default shrink-0 group",
     style: {
       clipPath: 'polygon(8px 0%, 100% 0%, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0% 100%, 0% 8px)'
     }
   }, /*#__PURE__*/React.createElement("div", {
-    className: "w-8 h-8 rounded bg-black/60 border border-zinc-700 group-hover:border-[#E10B1F] flex items-center justify-center shrink-0 transition-colors"
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "text-[#E10B1F] font-display text-sm font-bold"
-  }, "FF")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
-    className: "font-display text-sm tracking-wider text-white group-hover:text-[#E10B1F] transition-colors whitespace-nowrap"
+    className: "w-12 h-12 bg-white rounded flex items-center justify-center shrink-0 border border-zinc-300 overflow-hidden"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: client.logo,
+    alt: client.name,
+    className: "w-full h-full object-contain p-1",
+    loading: "lazy"
+  })), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "font-display text-sm font-bold tracking-wider text-white group-hover:text-[#E10B1F] transition-colors whitespace-nowrap"
   }, client.name), /*#__PURE__*/React.createElement("div", {
-    className: "flex items-center gap-2 text-[11px] text-zinc-400 font-sans tracking-wide"
-  }, /*#__PURE__*/React.createElement("span", null, client.city), /*#__PURE__*/React.createElement("span", {
-    className: "text-zinc-600"
-  }, "\u2022"), /*#__PURE__*/React.createElement("span", {
-    className: "text-zinc-500"
-  }, client.category))))))));
+    className: "text-[11px] text-zinc-400 font-sans tracking-wide whitespace-nowrap mt-0.5"
+  }, client.subtitle)))))));
 }
 
 // --- MODULE: SloganMarquee.jsx ---

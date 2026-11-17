@@ -101,14 +101,14 @@ export const siteConfig = {
   // CLIENT LOGOS (MOVING STRIP ON HOMEPAGE)
   // ==========================================
   clients: [
-    { name: "APEX COMBAT CLUB", city: "Mumbai", category: "Pro MMA Gym" },
-    { name: "IRON FIST BOXING ACADEMY", city: "Delhi NCR", category: "Elite Boxing" },
-    { name: "TITAN FIGHT LEAGUE", city: "Bangalore", category: "Championship Promotion" },
-    { name: "REDLINE COMBAT SPORTS", city: "Hyderabad", category: "Combat Arena" },
-    { name: "STRIKE FORCE ARENA", city: "Pune", category: "Fight Training Center" },
-    { name: "VALOR WARRIORS MMA", city: "Chandigarh", category: "Championship Cage" },
-    { name: "BLACK BELT SANCTUARY", city: "Goa", category: "Combat Academy" },
-    { name: "RUMBLE TITLE FIGHTS", city: "Kolkata", category: "Boxing Promotion" }
+    { name: "WAKO INDIA", subtitle: "Kickboxing Federation", logo: "/assets/clients/client-wako-india.webp" },
+    { name: "AIBA WORLD BOXING", subtitle: "Women's World Championships • Delhi 2018", logo: "/assets/clients/client-aiba-world-boxing.webp" },
+    { name: "TRAIN HIGH GYM", subtitle: "Elite Boxing & MMA Academy", logo: "/assets/clients/client-train-high-gym.webp" },
+    { name: "SHIV-NARESH", subtitle: "A Quality Sports Wear", logo: "/assets/clients/client-shiv-naresh.webp" },
+    { name: "CRPF", subtitle: "Central Reserve Police Force", logo: "/assets/clients/client-crpf.webp" },
+    { name: "RAJASTHAN BOXING", subtitle: "Rajasthan Boxing Association", logo: "/assets/clients/client-rajasthan-boxing.webp" },
+    { name: "SAI", subtitle: "Sports Authority of India", logo: "/assets/clients/client-sai-sports-authority-india.webp" },
+    { name: "TRENZ", subtitle: "Combat Sports Brand", logo: "/assets/clients/client-trenz.webp" }
   ],
 
   // ==========================================
