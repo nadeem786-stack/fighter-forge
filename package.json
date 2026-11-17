@@ -16,5 +16,8 @@
     "fighter-forge"
   ],
   "author": "Fighter Forge",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "mongodb": "^6.10.0"
+  }
 }

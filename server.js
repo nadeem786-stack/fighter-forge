@@ -610,16 +610,26 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(PORT, '0.0.0.0', () => {
-  console.log(`\n======================================================`);
-  console.log(`🥊 FIGHTER FORGE RUNNING WITH MONGODB ATLAS & SSR STORIES`);
-  console.log(`======================================================`);
-  console.log(`Local PC:      http://localhost:${PORT}`);
-  console.log(`Stories Hub:   http://localhost:${PORT}/stories`);
-  console.log(`Sitemap:       http://localhost:${PORT}/sitemap.xml`);
-  console.log(`Robots.txt:    http://localhost:${PORT}/robots.txt`);
-  console.log(`LLMs.txt:      http://localhost:${PORT}/llms.txt`);
-  console.log(`API Health:    http://localhost:${PORT}/api/health`);
-  console.log(`Mongo Status:  http://localhost:${PORT}/api/mongo-status`);
-  console.log(`======================================================\n`);
-});
+// ==========================================
+// LOCAL DEV: start server normally
+// VERCEL: export handler for serverless
+// ==========================================
+if (require.main === module) {
+  // Running directly with node server.js (local dev)
+  server.listen(PORT, '0.0.0.0', () => {
+    console.log(`\n======================================================`);
+    console.log(`🥊 FIGHTER FORGE RUNNING WITH MONGODB ATLAS & SSR STORIES`);
+    console.log(`======================================================`);
+    console.log(`Local PC:      http://localhost:${PORT}`);
+    console.log(`Stories Hub:   http://localhost:${PORT}/stories`);
+    console.log(`Sitemap:       http://localhost:${PORT}/sitemap.xml`);
+    console.log(`Robots.txt:    http://localhost:${PORT}/robots.txt`);
+    console.log(`LLMs.txt:      http://localhost:${PORT}/llms.txt`);
+    console.log(`API Health:    http://localhost:${PORT}/api/health`);
+    console.log(`Mongo Status:  http://localhost:${PORT}/api/mongo-status`);
+    console.log(`======================================================\n`);
+  });
+} else {
+  // Running on Vercel serverless — export the request handler
+  module.exports = (req, res) => server.emit('request', req, res);
+}
