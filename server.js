@@ -49,7 +49,9 @@ const { stories, getStoryBySlug } = require('./src/data/storiesData.js');
 const { renderStoriesListingHtml, renderStoryDetailHtml } = require('./backend/storyRenderer.js');
 
 // MongoDB Atlas Configuration
-const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://nadeemsiddique0303_db_user:Loveyourself786654@fighterforge.gaa4eew.mongodb.net/?retryWrites=true&w=majority";
+// ⚠️ NEVER hardcode credentials here — use environment variables only
+// Set MONGO_URI in Vercel → Settings → Environment Variables
+const MONGO_URI = process.env.MONGO_URI;
 const MONGO_DB_NAME = process.env.MONGO_DB_NAME || "fighterforge";
 
 let mongoClient = null;
@@ -74,6 +76,10 @@ process.on('unhandledRejection', (reason) => {
 
 // Connect to MongoDB Atlas
 async function initMongoDB() {
+  if (!MONGO_URI) {
+    console.warn('⚠ MONGO_URI environment variable not set. MongoDB disabled.');
+    return;
+  }
   try {
     const { MongoClient } = require('mongodb');
     mongoClient = new MongoClient(MONGO_URI, {
@@ -85,7 +91,6 @@ async function initMongoDB() {
     isMongoConnected = true;
     console.log(`\n======================================================`);
     console.log(`🍃 MONGODB ATLAS CONNECTED SUCCESSFULLY!`);
-    console.log(`   Cluster:  fighterforge.gaa4eew.mongodb.net`);
     console.log(`   Database: ${MONGO_DB_NAME}`);
     console.log(`   Target Collections: 'custom_quotes', 'gear_ideas'`);
     console.log(`======================================================\n`);

@@ -1,0 +1,23 @@
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.production
+.env.*
+
+# Node modules
+node_modules/
+
+# Scratch / build scripts
+scratch/
+
+# Backend uploads (user files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Temp binary files
+*.bmp
+*.raw
+
+# OS files
+.DS_Store
+Thumbs.db
